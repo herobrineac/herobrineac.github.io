@@ -1,400 +1,983 @@
-{-webkit-box-sizing:border-box;box-sizing:border-box;}
- body{
-  font-family:"Raleway","文泉驿微米黑","微软雅黒","Helvetica","sans-serif";
-  background:#ddd;
-  font-size:14px;
-  margin:0;
-  word-wrap:break-word;
-}
+<!DOCTYPE html>
+<html lang="zh-cn"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="origin">
+    
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <title>herobrine - 博客园</title>
+    
+    <link rel="stylesheet" href="herobrine%20-%20%E5%8D%9A%E5%AE%A2%E5%9B%AD_files/blog-common.css">
+    
+    <link type="text/css" rel="stylesheet" href="herobrine%20-%20%E5%8D%9A%E5%AE%A2%E5%9B%AD_files/507083.css">
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="herobrine%20-%20%E5%8D%9A%E5%AE%A2%E5%9B%AD_files/bundle-gertrude-blue-mobile.css">
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/herobrine-life/rss">
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/herobrine-life/rsd.xml">
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/herobrine-life/wlwmanifest.xml">
+    <script async="" src="herobrine%20-%20%E5%8D%9A%E5%AE%A2%E5%9B%AD_files/analytics.js"></script><script src="herobrine%20-%20%E5%8D%9A%E5%AE%A2%E5%9B%AD_files/jquery-2.js"></script>
+    <script src="herobrine%20-%20%E5%8D%9A%E5%AE%A2%E5%9B%AD_files/blog-common.js"></script>
+    <script>
+        var currentBlogId = 507083;
+        var currentBlogApp = 'herobrine-life';
+        var cb_enable_mathjax = false;
+        var isLogined = true;
+    </script>
+    
+    
+    
+<link rel="shortcut icon" href="https://i.loli.net/2019/07/17/5d2e86cfeec8532611.png"></head>
+<body>
+    <a name="top"></a>
+    <div id="page_begin_html"><div id="top-qoute-container">
+            <span id="top-qoute-context">I'll living just like this.</span>
+           <span id="top-qoute-from">Herobrine</span>
+</div>
+</div>
+    
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/herobrine-life/">Herobrine's life</a>
+</h1>
+<p id="tagline">
 
-input,textarea{
-  background:#444;
-  color:#eee;
-  transition:all ease 0.3s;
-}
-input:hover,textarea:hover{
-  background:#333;
-  box-shadow:inset 0 0 1px transparent,0 0 2px rgb(72,209,204);
-}
-input:focus,textarea:focus{
-  background:black;
-  box-shadow:inset 0 0 3px rgb(72,209,204),0 0 1px rgb(72,209,204);
-}
-::-moz-selection{
-  background:rgba(0,206,209,0.2);
-  color:black;
-}
-::seletcion{
-  background:rgba(0,206,209,0.2);
-  color:black;
-}
-a:link{
-  transition:all ease 0.3s;
-  position:relative;
-  text-decoration:none !important;
-}
-a:hover{
-  padding:0 1em;
-  color:#ccc !important;
-  background:rgba(0,0,0,0.7);
-  font-weight:bold;
-}
-blockquote{
-  font-size:0.8em;
-}
-code{
-  padding:0 0.5em;
-  background:rgba(180,180,180,0.4);
-  text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
-  box-shadow: 0 0 5px rgba(180,180,180,0.7);
-}
-pre{
-  background:rgba(180,180,180,0.4);
-  padding: 1em;
-  box-shadow: 0 0 5px rgba(180,180,180,0.7);
-}
-pre code{
-  padding:0;
-  background:transparent;
-  box-shadow:none;
-}
-/*top area*/
-#top-qoute-container{
-position:relative;
-z-index:9000;
-margin-top:-2em;
-padding:4em 0 1.4em 0;
-text-align:center;
-background:#555;
-font-family:"Kelly Slab";
-font-size:24px;
-color:#eee;
-text-shadow:-1px -2px 1px black;
-transform:skewY(-3deg);
--webkit-transform:skewY(-3deg);
-box-shadow:0 2px 10px black;
-}
-#top-qoute-context,#top-qoute-from{
-z-index:9100;
-display:inline-block;
-margin:0em 1em;
-transform:skewY(3deg);
--webkit-transform:skewY(3deg);
-}
-#top-qoute-from:before{
-content:" -- ";
-}
-body>h1:first-of-type{
-  position:relative;
-  z-index:8000;
-  margin-top:-3.5em;
-  padding:5em 0 2em 5em;
-  text-align:center;
-  text-transform:capitalize;
-  background:#333;
-  border:none;
-  box-shadow:0 1px 10px black;
-  transform:skewY(3deg);
-  -webkit-transform:skewY(3deg);
-}
-body>h1:first-of-type>a{
-  z-index:8001;
-  font-size:40px;
-  font-family:"Kelly Slab";
-  display:block;
-  color:white;
-  background:none;
-  box-shadow:none;
-  padding:0;
-  transform:skewY(-4deg);
-  -webkit-transform:skewY(-4deg);
-}
-/*side area*/
-#rightmenu{
-position:absolute;
-width:250px;
-top:0;
-right:5px;
-z-index:7000;
-margin-top:0;
-padding:26em 0 4em 0;
-color:#ccc;
-background:#222;
-box-shadow:0 2px 2px black;
-transform:skewY(5deg);
--webkit-transform:skewY(5deg);
-}
-#rightmenu li{list-style:none;}
-#rightmenu ul{padding:6px;}
-#rightmenu>*{transform:skewY(-5deg);-webkit-transform:skewY(-5deg);}
-#rightmenu *{border:none !important;}
-#rightmenu a{color:rgb(135,206,250);}
-#rightmenu a:hover{
-color:white !important;
-background:rgb(135,206,250);
-border-radius:0 0.5em 0.5em 0;
-}
-#rightmenu>h3,.catListTitle,#blog-sidecolumn>h3{
-z-index:7777;
-display:block;
-color:white !important;
-margin:1em -3px 1em -1em !important;
-padding:2px 0 2px 4px;
-background:#111 !important;
-box-shadow:0 0 2px black;
-}
-
-.CalTitle{
-  color:white !important;
-  background:#111 !important;
-}
-#blog-calendar a:hover{
-padding:0;
-font-weight:normal;
-background:none;
-text-shadow:1px 1px 5px rgb(255,182,193);
-}
-#blog-calendar td{color:#bababa;}
-.CalNextPrev{padding:0 0.7em;}
-td.CalOtherMonthDay{
-  color:#555 !important;
-}
-th.CalDayHeader{
-  padding:0.5em 0;
-  color:rgb(135, 206, 250);
-}
-#profile_block{
-padding-left:0.5em;
-}
-#sidebar-cus{
-padding-left:0.5em;
-text-align:center;
-}
-#cus-avatar{
-display:inline-block;
-background-image:url("https://pic.cnblogs.com/avatar/1653297/20190404210018.png");
-height:140px;
-width:140px;
-background-size:140px 140px;
-border-radius:70px;
-box-shadow:inset 0 0 10px black,0 0 3px #A3A2BB;
-}
-/*main area*/
-#main{
-background:transparent !important;
-min-height:140em;
-margin-right:280px;
-padding-left:1em;
-}
-#cnblogs_post_body{
-margin-bottom:0;
-background-image: url('https://i.loli.net/2019/06/01/5cf228e7067ce38305.jpg');
-min-height: 850px;
-background-repeat: no-repeat;
-background-position: right bottom;
-box-shadow: 10px 0px 15px rgb(221, 221, 221) inset;
-}
-.post{
-  padding-left:10px;
-}
-.post:nth-of-type(4n+1){
-  border-left:10px solid rgb(72,209,204);
-}
-.post:nth-of-type(4n+2){
-  border-left:10px solid rgb(255,182,193);
-}
-.post:nth-of-type(4n+3){
-  border-left:10px solid rgb(144,238,144);
-}
-.post:nth-of-type(4n){
-  border-left:10px solid rgb(238,232,170);
-}
-.c_b_p_desc_readmore{
-  display:none;
-  text-align:center;
-}
-.post>h2:first-child{
-  display:block;
-}
-.post>h2:first-child>a{
-  position: relative;
-  display:inline-block;
-  color:black;
-  font-weight:bold;
-  font-size:1.4em;
-  padding-top:5px;
-  padding-bottom:5px;
-}
-
-.post>h2:first-child>a:hover{
-  background:black;
-  border-radius:0;
-  box-shadow:2px 0 1px black;
-  border-color:transparent !important;
-}
-.post>h2:first-child>a::after{
-  display:inline-block;
-  position: absolute;
-  /*right:-1.4em;
-   *  top:-0.1em;*/
-  left:100%;
-  top:-2px;
-  width:0.5em;
-  height: 100%;
-  padding:  0 5px;
-  content:"\200B";
-  opacity:0;
-  transition:all ease 0.3s;
-  /*border-width:0.7em;
-   *  border-style:solid;
-   *  border-color: transparent transparent transparent black;*/
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiCiAgICBiYXNlUHJvZmlsZT0iZnVsbCIKICAgIHdpZHRoPSI0NSIgaGVpZ2h0PSIxMDAiCiAgICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxwYXRoIGlkPSJzdmctbGluay1iYWNrZ3JvdW5kIiBkPSJNMCAwIEw0MCAwIEw1IDUwIEw0MCAxMDAgTDAgMTAwIFoiIHN0cm9rZT0iYmxhY2siIGZpbGw9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjAiIGZpbGwtb3BhY2l0eT0iMSIvPgo8L3N2Zz4K);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-origin: border-box;
-  background-clip: border-box;
-  border-top:2px solid transparent;
-  border-bottom:2px solid transparent;
-}
-.post>h2:first-child>a:hover::after{opacity:1;}
-#main a,.topicListFooter a,#footer a{
-color:black;
-border-bottom:2px solid #777;
-border-top:2px solid transparent;
-}
-.c_b_p_desc{font-size:1.4em;}
-.desc_img{
-  float: left;
-  height: 120px;
-  margin:0 15px 10px;
-  box-shadow: 2px 4px 5px rgba(0,0,0,0.9);
-  opacity: 0.8;
-  transition:opacity ease 0.3s;
-}
-.post:hover .desc_img{
-  opacity: 1;
-}
-#cnblogs_post_body>h1{
-margin-top: 1.5em;
-}
-.cnblogs_code{
-  background:transparent;
-  margin:0;
-  padding:1em 0;
-  border:none;
-}
-.cnblogs_code div{
-  background-color:transparent;
-}
-
-.cnblogs_code_toolbar a:hover,
-.cnblogs_code_toolbar a:link,
-.cnblogs_code_toolbar a:visited,
-.cnblogs_code_toolbar a:active,
-.cnblogs_code_toolbar a:link img,
-.cnblogs_code_toolbar a:visited img{
-  background-color:transparent !important;
-  padding:0;
-}
+</p>
 
 
-/*post info area*/
-#blog_post_info_block{
-margin-top:0;
-padding:1em;
-}
-#green_channel{border:none;width:auto;color:transparent;text-align:center;padding:3em 0;}
-#green_channel>a{
-display:inline-block;
-line-height:31px;
-width:7em;
-padding:0 1em;
-border-radius:0 !important;
-box-shadow:inset 1px 1px 1px #fff;
-transform:skewX(-15deg);
--webkit-transform:skewX(-15deg);
-}
-#green_channel>a:hover{box-shadow:inset -1px -1px 1px #fff;}
-#green_channel_digg{background:rgb(135,206,250) !important;}
-#green_channel_follow{background:rgb(255,182,193) !important;}
-#green_channel_favorite{background:rgb(144,238,144) !important;}
-#green_channel_contact{background:rgb(238,232,170) !important;}
-#green_channel_weibo{background:rgb(234, 179, 143) !important;}
-#digg_block{
-display:block;
-overflow:hidden;
-padding:1em 0;
-margin-top:-7em;
-}
-#author_profile{
-position:relative;
-display:inline-block;
-height:80px;
-width:15em;
-margin: -7em 0 0 0;
-text-align:right;
-}
-#div_digg{
-display:inline-block;
-margin: -7em 0 0 0;
-}
-#div_digg>.diggit,#div_digg>.buryit{
-box-shadow:inset 1px 1px 2px white,1px 1px 1px #aaa;
-transition:box-shadow ease 0.3s;
-}
-#div_digg>.diggit:hover,#div_digg>.buryit:hover{
-box-shadow:inset 1px 1px 2px #aaa,1px 1px 2px white;
-}
-#div_digg>.diggit{background:rgb(135,206,250);}
-#div_digg>.diggit:after{display:block;content:"GJ";}
-#div_digg>.buryit{background:#aaa;}
-#div_digg>.buryit:after{display:block;content:"WTF";}
-#author_profile_info>a:hover{padding:0;height:0;}
-.author_avatar{
-  position:absolute;
-  padding:0;
-  left:20px;
-  top:40px;
-  margin-top:-24px;
-  border-radius:10%;
-  box-shadow:1px 1px 1px black;
-}
-#author_profile_detail{
-position:absolute;
-right:0;
-text-align:right;
-}
-#author_profile_follow{
-position:absolute;
-top:56px;
-right:0;
-}
-.p_n_p_prefix{display: none;}
-/*comment area*/
-#tbCommentBody{
-max-width:100%;
-min-width:100%;
-min-height:20em;
-padding:5px;
-border:none;
-background:url("//images.cnblogs.com/cnblogs_com/frantic1048/619148/o_kawai_mao.png") right bottom no-repeat;
-background-color:#4a4a4a;
-}
+<div id="main">
+	
 
-#tbCommentBody:hover{
-box-shadow:inset 0 0 5px rgb(238,232,170),0 0 5px rgb(238,232,170);
-background-color:#666;
+
+
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/herobrine-life/archive/2019/07/23.html"></a>
+	2019年7月23日		  
+</p>
+
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/herobrine-life/p/11229945.html">
+    搜索的剪枝
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：剪枝，是搜索的自带神技。不管是BFS还是DFS，在搜索的过程中都难免会计算重复或不需要的东西，我们就可以直接将它剪掉，不计算它，这个过程就
+被形象地称为剪枝。 @ "TOC" 原则 三个词语： 正确性，准确性，高效性。 分类 可行性剪枝 
+这是最简单的剪枝了，如果目前答案不合法，就直接返回，人人都可掌握            <a href="https://www.cnblogs.com/herobrine-life/p/11229945.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				
+
+posted @ 2019-07-23 09:55 herobrine 阅读 (27) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11229945" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/herobrine-life/archive/2019/06/09.html"></a>
+	2019年6月9日		  
+</p>
+
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/herobrine-life/p/10993474.html">
+    Hello world——程序员的第一篇代码
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：Hello world 是和A+B问题并驾齐驱的一道题，也是当世的经典题之一。题目： 输出“Hello world” 样例输入 样例输出 
+Hello worldHello world 这道题嘛， 我怎么可能只讲最简单的做法呢？前方高能C++ C Go R rust lisp D 
+perl pytho            <a href="https://www.cnblogs.com/herobrine-life/p/10993474.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				
+
+posted @ 2019-06-09 14:42 herobrine 阅读 (115) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10993474" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/herobrine-life/p/10993018.html">
+    YCOJ-DFS
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：DFS搜索是搜索中的一种，即深度优先搜索（Depth First 
+Search），其过程简要来说是对每一个可能的分支路径深入到不能再深入为止，而且每个节点只能访问一次。图示： 
+如图，这是邻接矩阵，我们要从s走到e，且“*”不能走，求所有方案。 首先，从s出发，标记s 然后通过s只能走到下面一个点，重          
+  <a href="https://www.cnblogs.com/herobrine-life/p/10993018.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				
+
+posted @ 2019-06-09 11:39 herobrine 阅读 (36) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10993018" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/herobrine-life/archive/2019/06/08.html"></a>
+	2019年6月8日		  
+</p>
+
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/herobrine-life/p/10991211.html">
+    图论之最小生成树之Kruskal算法
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：Kruskal算法，又称作为加边法，是配合并查集实现的。 图示： 如图，这是一个带权值无向图我们要求它的最小生成树。 
+首先，我们发现在1的所有边上，连到3的边的边权值最小，所以加上这条边。 然后在3上，连到4的边权值最小，加上这条边。 
+最后，4连到2的边是最小的，加上这条边。 现在，所有点都连通了，            <a href="https://www.cnblogs.com/herobrine-life/p/10991211.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				
+
+posted @ 2019-06-08 19:33 herobrine 阅读 (42) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10991211" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/herobrine-life/p/10991154.html">
+    P3366 【模板】最小生成树
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：题目描述 如题，给出一个无向图，求出最小生成树，如果该图不连通，则输出orz 输入输出格式 输入格式： 
+第一行包含两个整数N、M，表示该图共有N个结点和M条无向边。（N&lt;=5000，M&lt;=200000） 
+接下来M行每行包含三个整数Xi、Yi、Zi，表示有一条长度为Zi的无向边连接结点Xi、Yi 输出            <a href="https://www.cnblogs.com/herobrine-life/p/10991154.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				
+
+posted @ 2019-06-08 17:12 herobrine 阅读 (42) 评论 (1)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10991154" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/herobrine-life/p/10990652.html">
+    Photoshop下载
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：Adobe Photoshop，简称“PS”，是由Adobe 
+Systems开发和发行的图像处理软件。Photoshop主要处理以像素所构成的数字图像。使用其众多的编修与绘图工具，可以有效地进行图片编辑工
+作。ps有很多功能，在图像、图形、文字、视频、出版等各方面都有涉及。2003年，Adobe Ph            <a href="https://www.cnblogs.com/herobrine-life/p/10990652.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				
+
+posted @ 2019-06-08 14:37 herobrine 阅读 (77) 评论 (1)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10990652" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/herobrine-life/archive/2019/06/01.html"></a>
+	2019年6月1日		  
+</p>
+
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/herobrine-life/p/10960788.html">
+    P1020 导弹拦截
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：题目 题目描述 
+某国为了防御敌国的导弹袭击，发展出一种导弹拦截系统。但是这种导弹拦截系统有一个缺陷：虽然它的第一发炮弹能够到达任意的高度，但是以后每一发炮弹都不
+能高于前一发的高度。某天，雷达捕捉到敌国的导弹来袭。由于该系统还在试用阶段，所以只有一套系统，因此有可能不能拦截所有的导弹。 输入导弹依次飞  
+          <a href="https://www.cnblogs.com/herobrine-life/p/10960788.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				
+
+posted @ 2019-06-01 20:09 herobrine 阅读 (36) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10960788" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/herobrine-life/p/10959958.html">
+    YCOJ单向公路
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：题目： 描述 
+某地区有许多城镇，但并不是每个城镇都跟其他城镇有公路连接，并且有的公路并不能双向行驶。现在我们把这些城镇间的公路分布及允许的行驶方向告诉你，你需
+要编程解决通过公路是否可以从一个城镇到达另一个城镇。（我们规定，城镇自己跟自己可互相到达，即 a 可到达 a）。 输入 第一行只有一个数 N  
+           <a href="https://www.cnblogs.com/herobrine-life/p/10959958.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				
+
+posted @ 2019-06-01 16:11 herobrine 阅读 (42) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10959958" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/herobrine-life/p/10959713.html">
+    YCOJ黑熊过河
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：Description 
+有一只黑熊想过河，但河很宽，黑熊不会游泳，只能借助河面上的石墩跳过去，他可以一次跳一墩，也可以一次跳两墩，但是每起跳一次都会耗费一定的能量，黑熊
+最终可能因能量不够而掉入水中，所幸的事，有些石墩上放了一些食物，这些食物可以给黑熊增加一定的能量，问黑熊能否利用这些石墩安全的抵达对      
+      <a href="https://www.cnblogs.com/herobrine-life/p/10959713.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				
+
+posted @ 2019-06-01 15:17 herobrine 阅读 (48) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10959713" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/herobrine-life/p/10959549.html">
+    图论之最短路算法之SPFA算法
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：SPFA（Shortest Path Faster Algorithm）算法，是一种求最短路的算法。 
+SPFA的思路及写法和BFS有相同的地方，我就举一道例题（ "洛谷——P3371 【模板】单源最短路径（弱化版" ）来做讲解吧！ 如题： 
+首先，我们先来定义一波变量吧： 然后再来一个存图函数 好了，            <a href="https://www.cnblogs.com/herobrine-life/p/10959549.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				
+
+posted @ 2019-06-01 14:38 herobrine 阅读 (31) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10959549" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+
+    <a href="https://www.cnblogs.com/herobrine-life/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+<div id="rightmenu">
+	
+		<div id="blog-calendar" style="">
+
+<table id="blogCalendar" class="Cal" title="Calendar" cellspacing="0" cellpadding="0" border="0">
+    <tbody>
+        <tr>
+            <td colspan="7">
+                <table class="CalTitle" cellspacing="0" border="0">
+                    <tbody>
+                        <tr>
+                            <td class="CalNextPrev">
+                                <a href="javascript:void(0);" onclick="loadBlogCalendar('2019/08/22'); return false;">&lt;</a>
+                            </td>
+                            <td align="center">2019年9月</td>
+                            <td class="CalNextPrev" align="right">
+                                <a href="javascript:void(0);" onclick="loadBlogCalendar('2019/10/22'); return false;">&gt;</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+                    <th class="CalDayHeader" abbr="日" scope="col" align="center">日</th>
+                    <th class="CalDayHeader" abbr="一" scope="col" align="center">一</th>
+                    <th class="CalDayHeader" abbr="二" scope="col" align="center">二</th>
+                    <th class="CalDayHeader" abbr="三" scope="col" align="center">三</th>
+                    <th class="CalDayHeader" abbr="四" scope="col" align="center">四</th>
+                    <th class="CalDayHeader" abbr="五" scope="col" align="center">五</th>
+                    <th class="CalDayHeader" abbr="六" scope="col" align="center">六</th>
+        </tr>
+            <tr>
+                        <td class="CalWeekendDay" align="center">
+                            1
+                        </td>
+                        <td class="" align="center">
+                            2
+                        </td>
+                        <td class="" align="center">
+                            3
+                        </td>
+                        <td class="" align="center">
+                            4
+                        </td>
+                        <td class="" align="center">
+                            5
+                        </td>
+                        <td class="" align="center">
+                            6
+                        </td>
+                    <td class="CalWeekendDay" align="center">
+                        7
+                    </td>
+            </tr>
+                <tr>
+                        <td class="CalWeekendDay" align="center">
+                            8
+                        </td>
+                            <td class="" align="center">
+                                9
+                            </td>
+                            <td class="" align="center">
+                                10
+                            </td>
+                            <td class="" align="center">
+                                11
+                            </td>
+                            <td class="" align="center">
+                                12
+                            </td>
+                            <td class="" align="center">
+                                13
+                            </td>
+                        <td class="CalWeekendDay" align="center">
+                            14
+                        </td>
+                </tr>
+                <tr>
+                        <td class="CalWeekendDay" align="center">
+                            15
+                        </td>
+                            <td class="" align="center">
+                                16
+                            </td>
+                            <td class="" align="center">
+                                17
+                            </td>
+                            <td class="" align="center">
+                                18
+                            </td>
+                            <td class="" align="center">
+                                19
+                            </td>
+                            <td class="" align="center">
+                                20
+                            </td>
+                        <td class="CalWeekendDay" align="center">
+                            21
+                        </td>
+                </tr>
+                <tr>
+                        <td class="CalTodayDay" align="center">
+                            22
+                        </td>
+                            <td class="" align="center">
+                                23
+                            </td>
+                            <td class="" align="center">
+                                24
+                            </td>
+                            <td class="" align="center">
+                                25
+                            </td>
+                            <td class="" align="center">
+                                26
+                            </td>
+                            <td class="" align="center">
+                                27
+                            </td>
+                        <td class="CalWeekendDay" align="center">
+                            28
+                        </td>
+                </tr>
+                <tr>
+                        <td class="CalWeekendDay" align="center">
+                            29
+                        </td>
+                            <td class="" align="center">
+                                30
+                            </td>
+                            <td class="CalOtherMonthDay" align="center">
+                                1
+                            </td>
+                            <td class="CalOtherMonthDay" align="center">
+                                2
+                            </td>
+                            <td class="CalOtherMonthDay" align="center">
+                                3
+                            </td>
+                            <td class="CalOtherMonthDay" align="center">
+                                4
+                            </td>
+                        <td class="CalOtherMonthDay" align="center">
+                            5
+                        </td>
+                </tr>
+                <tr>
+                        <td class="CalOtherMonthDay" align="center">
+                            6
+                        </td>
+                            <td class="CalOtherMonthDay" align="center">
+                                7
+                            </td>
+                            <td class="CalOtherMonthDay" align="center">
+                                8
+                            </td>
+                            <td class="CalOtherMonthDay" align="center">
+                                9
+                            </td>
+                            <td class="CalOtherMonthDay" align="center">
+                                10
+                            </td>
+                            <td class="CalOtherMonthDay" align="center">
+                                11
+                            </td>
+                        <td class="CalOtherMonthDay" align="center">
+                            12
+                        </td>
+                </tr>
+    </tbody>
+</table></div><script>loadBlogDefaultCalendar();</script>
+		
+<h3>导航</h3>
+<ul>
+			<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+			<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/herobrine-life/">
+首页</a>
+</li>
+			<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+			<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/herobrine">
+联系</a></li>
+			<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/herobrine-life/rss/">
+订阅</a>
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/herobrine-life/rss/">
+    <img src="herobrine%20-%20%E5%8D%9A%E5%AE%A2%E5%9B%AD_files/xml.gif" alt="订阅">
+</a></li>
+			<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<h3>统计</h3>
+	<ul>
+		<li>随笔 - 
+19</li>
+		<li>文章 - 
+0</li>
+		<li>评论 - 
+2</li>
+		<li>引用 - 
+0</li>
+</ul>
+
+
+		
+<div id="sidebar_news" class="newsItem"><h3>公告</h3>
+	
+<div id="blog-news">
+    <style>
+body{
+cursor: url('https://i.loli.net/2019/07/17/5d2e89491ade681977.png'),pointer;
 }
-#tbCommentBody:focus{
-box-shadow:inset 0 0 5px rgb(238,232,170),0 0 5px rgb(238,232,170);
-background-color:#333;
+</style>
+<p id="back-top" style="display: none;"><a href="#top"><span></span></a></p>
+
+
+
+
+ 
+<img src="herobrine%20-%20%E5%8D%9A%E5%AE%A2%E5%9B%AD_files/20190404210018.png" alt="" class="img_avatar" style="border-radius:50%" width="250px">
+    <div id="profile_block">
+        昵称：
+        <a href="https://home.cnblogs.com/u/herobrine-life/">
+            herobrine
+        </a>
+        <br>
+        园龄：
+        <a href="https://home.cnblogs.com/u/herobrine-life/" title="入园时间：2019-04-04">
+            5个月
+        </a>
+        <br>
+        粉丝：
+        <a href="https://home.cnblogs.com/u/herobrine-life/followers/">
+            3
+        </a>
+        <br>
+        关注：
+        <a href="https://home.cnblogs.com/u/herobrine-life/followees/">
+            4
+        </a>
+        <div id="p_b_follow"></div>
+        
+    </div>
+</div>
+
+</div>
+
+		<div id="blog-sidecolumn">
+
+<!-- 搜索 -->
+<div id="sidebar_search" class="sidebar-block">
+    <div id="sidebar_search" class="mySearch">
+        <h3 class="catListTitle">搜索</h3>
+        <div id="sidebar_search_box">
+            <div id="widget_my_zzk" class="div_my_zzk">
+                <input type="text" id="q" onkeydown="return zzk_go_enter(event);" class="input_my_zzk">&nbsp;<input onclick="zzk_go()" type="button" value="找找看" id="btnZzk" class="btn_my_zzk">
+            </div>
+            <div id="widget_my_google" class="div_my_zzk">
+                <input type="text" name="google_q" id="google_q" onkeydown="return google_go_enter(event);" class="input_my_zzk">&nbsp;<input onclick="google_go()" type="button" value="谷歌搜索" class="btn_my_zzk">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 常用链接 -->
+<div id="sidebar_shortcut" class="sidebar-block">
+    
+<h3 class="catListTitle">
+常用链接
+</h3>
+<ul>
+        <li>
+
+<a href="https://www.cnblogs.com/herobrine-life/p/" title="我的博客的随笔列表">我的随笔</a>
+</li>
+        <li>
+
+<a href="https://www.cnblogs.com/herobrine-life/MyComments.html" title="我的发表过的评论列表">我的评论</a>
+</li>
+        <li>
+
+<a href="https://www.cnblogs.com/herobrine-life/OtherPosts.html" title="我评论过的随笔列表">我的参与</a>
+</li>
+        <li>
+
+<a href="https://www.cnblogs.com/herobrine-life/RecentComments.html" title="我的博客的评论列表">最新评论</a>
+</li>
+        <li>
+
+<a href="https://www.cnblogs.com/herobrine-life/tag/" title="我的博客的标签列表">我的标签</a>
+</li>
+</ul>
+
+<!-- TODO: 检查是否有使用这一部分的控件，如果没有则应该删除。 -->
+<div id="itemListLin_con" style="display:none">
+    <ul>
+
+    </ul>
+</div>
+
+</div>
+
+<!-- 最新随笔 -->
+
+
+
+<!-- 我的标签 -->
+<div id="sidebar_toptags" class="sidebar-block">
+    
+<h3>我的标签</h3>
+<div id="MyTag">
+    <ul>
+        
+        <li>
+            <a href="https://www.cnblogs.com/herobrine-life/tag/C%2B%2B/">C++</a>(14)
+        </li>
+
+    </ul>
+</div>
+
+</div>
+
+<!-- 积分与排名 -->
+
+
+<!-- 随笔分类、随笔档案、文章分类、新闻分类、相册、链接 -->
+<div id="sidebar_categories">
+    
+		<h3>
+
+随笔档案
+
+
+</h3>
+				<ul>
+			
+				<li>
+<a href="https://www.cnblogs.com/herobrine-life/archive/2019/07.html" rel="" target="">
+    2019年7月(1)
+</a>
+ 
+</li>
+				<li>
+<a href="https://www.cnblogs.com/herobrine-life/archive/2019/06.html" rel="" target="">
+    2019年6月(18)
+</a>
+ 
+</li>
+			
+				</ul>
+		<h3>
+
+相册
+
+
+</h3>
+				<ul>
+			
+				<li>
+<a href="https://www.cnblogs.com/herobrine-life/gallery/1506967.html" rel="nofollow noopener noreferrer" target="">
+    壁纸(3)
+</a>
+ 
+</li>
+			
+				</ul>
+
+
+</div>
+
+<!-- 最新评论 -->
+<div id="sidebar_recentcomments" class="sidebar-block">
+    <div id="recent_comments_wrap" class="RecentComment">
+    <h3 class="catListTitle">最新评论</h3>
+    <div class="RecentCommentBlock">
+        <ul>
+                    <li class="recent_comment_title"><a href="https://www.cnblogs.com/herobrine-life/p/10991154.html#4275411">1. Re:P3366 【模板】最小生成树</a></li>
+                    <li class="recent_comment_body">强</li>
+                    <li class="recent_comment_author">--￥Notch￥</li>
+                    <li class="recent_comment_title"><a href="https://www.cnblogs.com/herobrine-life/p/10990652.html#4275334">2. Re:Photoshop下载</a></li>
+                    <li class="recent_comment_body">orz</li>
+                    <li class="recent_comment_author">--herobrine</li>
+        </ul>
+    </div>
+</div>
+</div>
+
+
+
+<!-- 阅读排行榜 -->
+<div id="sidebar_topviewedposts" class="sidebar-block">
+    
+<div id="topview_posts_wrap">
+    <h3 class="catListTitle">阅读排行榜</h3>
+    <div id="TopViewPostsBlock">
+        <ul style="word-break:break-all">
+                    <li>
+                        <a href="https://www.cnblogs.com/herobrine-life/p/10959413.html">
+                            1. A+B Problem——经典中的经典(245)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.cnblogs.com/herobrine-life/p/10993474.html">
+                            2. Hello world——程序员的第一篇代码(115)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.cnblogs.com/herobrine-life/p/10990652.html">
+                            3. Photoshop下载(77)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.cnblogs.com/herobrine-life/p/10959465.html">
+                            4. C++结构体的应用_YCOJ(56)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.cnblogs.com/herobrine-life/p/10959713.html">
+                            5. YCOJ黑熊过河(48)
+                        </a>
+                    </li>
+        </ul>
+    </div>
+</div>
+</div>
+
+<!-- 评论排行榜 -->
+<div id="sidebar_topcommentedposts" class="sidebar-block">
+    
+<div id="topfeedback_posts_wrap">
+    <h3 class="catListTitle">评论排行榜</h3>
+    <div id="TopFeedbackPostsBlock">
+        <ul style="word-break:break-all">
+                    <li>
+                        <a href="https://www.cnblogs.com/herobrine-life/p/10991154.html">
+                            1. P3366 【模板】最小生成树(1)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.cnblogs.com/herobrine-life/p/10990652.html">
+                            2. Photoshop下载(1)
+                        </a>
+                    </li>
+        </ul>
+    </div>
+</div>
+</div>
+
+<!-- 推荐排行榜 -->
+<div id="sidebar_topdiggedposts" class="sidebar-block">
+    
+<div id="topdigg_posts_wrap">
+    <div class="catListView">
+        <h3 class="catListTitle">推荐排行榜</h3>
+        <div id="TopDiggPostsBlock">
+            <ul style="word-break: break-all">
+                        <li>
+                            <a href="https://www.cnblogs.com/herobrine-life/p/10991211.html">
+                                1. 图论之最小生成树之Kruskal算法(2)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.cnblogs.com/herobrine-life/p/10959404.html">
+                                2. 关押罪犯(1)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.cnblogs.com/herobrine-life/p/10959319.html">
+                                3. 机房小游戏(1)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.cnblogs.com/herobrine-life/p/10959270.html">
+                                4. 拓扑排序（入门）(1)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.cnblogs.com/herobrine-life/p/10959549.html">
+                                5. 图论之最短路算法之SPFA算法(1)
+                            </a>
+                        </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div></div>
+                    <script>loadBlogSideColumn();</script>
+	
+</div>			
+<p id="footer">
+	Powered by: 
+	<br>
+	
+	
+<a href="https://www.cnblogs.com/" id="Footer1_Hyperlink3" style="font-size: 12px; font-family: Verdana">博客园</a>
+	<br>
+	Copyright © 2019 herobrine
+<br><span id="poweredby">Powered by .NET Core 3.0.0-preview9-19423-09 on Linux</span>
+
+</p>
+
+
+	
+
+
+    <div id="page_end_html">
+        <script id="c_n_script" src="herobrine%20-%20%E5%8D%9A%E5%AE%A2%E5%9B%AD_files/js.js" color="10,230,140" opacity="1" count="250" zindex="-2">
+if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+} else {
+       
 }
-#commentbox_opt>a{float:right;}
-#comments>h4>a{border-color:transparent;}
-/*foot area*/
-#footer{
-padding-top:1em;
-text-align:center;
-line-height:1.5em;
-border-top:5px solid rgb(135,206,250);
-}
+</script>
+ 
+<style type="text/css">@import url(//fonts.googleapis.com/css?family=Kelly+Slab|Raleway);</style>
+
+
+
+
+<style>
+  #back-top {
+       position: fixed;
+       bottom: 10px;
+       right: 5px;
+       z-index: 99;
+  }
+  #back-top span {
+       width: 100px;
+       height: 100px;
+       display: block;
+       background:url(data:image/svg+xml;base64,77u/PHN2ZyBjbGFzcz0iaWNvbiIgc3R5bGU9IndpZHRoOiAyMDA7IGhlaWdodDogMjAwO3ZlcnRpY2FsLWFsaWduOiBtaWRkbGU7ZmlsbDogY3VycmVudENvbG9yO292ZXJmbG93OiBoaWRkZW47IiB2aWV3Qm94PSIwIDAgMTAyNCAxMDI0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgcC1pZD0iMTUzNiI+PHBhdGggZD0iTTUxNy45NzUwNCA1NjMuNTk5MzZtLTMzOS43OTkwNCAwYTMzOS43OTkwNCAzMzkuNzk5MDQgMCAxIDAgNjc5LjU5ODA4IDAgMzM5Ljc5OTA0IDMzOS43OTkwNCAwIDEgMC02NzkuNTk4MDggMFoiIGZpbGw9IiMwMERGRDUiIHAtaWQ9IjE1MzciIGNsYXNzPSJzZWxlY3RlZCI+PC9wYXRoPjxwYXRoIGQ9Ik01MTcuNzEzOTIgOTEwLjUwNDk2Yy0xNTkuODAwMzIgMC0yOTguMTczNDQtMTA4LjUxODQtMzM2LjQ4NjQtMjYzLjg4OTkyLTIyLjE3NDcyLTg5Ljk0ODE2LTcuOTg3Mi0xODMuMTQyNCAzOS45MzYtMjYyLjQyNTZzMTIzLjg0NzY4LTEzNS4xNjI4OCAyMTMuNzk1ODQtMTU3LjMzMjQ4YTM0OC4zMzkyIDM0OC4zMzkyIDAgMCAxIDgzLjI5NzI4LTEwLjE1ODA4YzE1OS43OTAwOCAwIDI5OC4xNjMyIDEwOC41MDgxNiAzMzYuNDc2MTYgMjYzLjg3NDU2IDQ1Ljc2MjU2IDE4NS42NzY4LTY4LjA0OTkyIDM3My45ODUyOC0yNTMuNzI2NzIgNDE5Ljc2ODMyYTM0OC45NDg0OCAzNDguOTQ4NDggMCAwIDEtODMuMjkyMTYgMTAuMTYzMnogbTAuNTM3Ni02NzkuNzYxOTJjLTI2Ljc4Nzg0IDAtNTMuNjgzMiAzLjI4MTkyLTc5LjkzMzQ0IDkuNzU4NzItODYuMzAyNzIgMjEuMjY4NDgtMTU5LjE1MDA4IDc0Ljg4NTEyLTIwNS4xNDMwNCAxNTAuOTU4MDgtNDUuOTc3NiA3Ni4wNzI5Ni01OS41ODE0NCAxNjUuNDkzNzYtMzguMjk3NiAyNTEuNzk2NDggMzYuNzU2NDggMTQ5LjA4NDE2IDE2OS41MTgwOCAyNTMuMTk5MzYgMzIyLjg0MTYgMjUzLjE5OTM2IDI2Ljc3NzYgMCA1My42NzI5Ni0zLjI4MTkyIDc5LjkyMzItOS43NTg3MiAxNzguMTU1NTItNDMuOTI0NDggMjg3LjM2NTEyLTIyNC42MDQxNiAyNDMuNDQwNjQtNDAyLjc2NDgtMzYuNzYxNi0xNDkuMDY4OC0xNjkuNTA3ODQtMjUzLjE4OTEyLTMyMi44MzEzNi0yNTMuMTg5MTJ6IiBmaWxsPSIjNkMwMDAwIiBwLWlkPSIxNTM4Ij48L3BhdGg+PHBhdGggZD0iTTUxMy44NDMyIDM3NS40MzkzNmMtMjM1LjU3MTItOC4zNzYzMi00ODcuODk1MDQgMzcuNDI3Mi00OTEuNDk5NTIgMTM4LjgyODgtMy42MDQ0OCAxMDEuMzgxMTIgMjQ0LjgyODE2IDE2NC45ODY4OCA0ODAuMzk5MzYgMTczLjM2MzIgMjM1LjU3MTIgOC4zNzYzMiA0ODcuODk1MDQtMzcuNDI3MiA0OTEuNDk5NTItMTM4LjgxMzQ0IDMuNjA0NDgtMTAxLjM5NjQ4LTI0NC44MjgxNi0xNjUuMDAyMjQtNDgwLjM5OTM2LTE3My4zNzg1NnogbTQ2MC4zODAxNiAxNzIuNjY2ODhjLTIuMzE0MjQgNjUuMDgwMzItMjA0LjE2IDEzMC43ODUyOC00NzAuODMwMDggMTIxLjMwMzA0LTI2Ni42NzUyLTkuNDgyMjQtNDYzLjM0NDY0LTg5LjM0OTEyLTQ2MS4wMzA0LTE1NC40MzQ1NiAyLjMxNDI0LTY1LjA4MDMyIDIwNC4xNi0xMzAuODA1NzYgNDcwLjgzNTItMTIxLjMyMzUyIDI2Ni42NzAwOCA5LjQ4MjI0IDQ2My4zMzk1MiA4OS4zNzQ3MiA0NjEuMDI1MjggMTU0LjQ1NTA0eiIgZmlsbD0iIzZCMDMwNiIgcC1pZD0iMTUzOSI+PC9wYXRoPjxwYXRoIGQ9Ik0yMzguMzQxMTIgMzg4LjYxMzEyYy04LjIxMjQ4IDEwLjA0NTQ0LTE2LjQyNDk2IDI2LjMyNzA0LTIwLjI1NDcyIDM0LjM5MTA0IDgwLjY4NjA4LTE4LjQxMTUyIDE3NS45NzQ0LTI0LjI5NDQgMjkzLjA0ODMyLTIwLjEzMTg0IDEyOS41MjA2NCA0LjYwMjg4IDIzNi44MzA3MiAyMS4zNjA2NCAzMTguNTQ1OTIgNDkuNDE4MjQtMy4xNTkwNC04LjcyOTYtMTQuMDAzMi0zMS4zODA0OC0xNy44MDczNi0zOS43MTA3Mi04OC44NzI5Ni0yNi40OTYtMTg4LjM3NTA0LTUwLjMwNC0yOTkuMDIzMzYtNTQuMjM2MTYtMTAwLjcxMDQtMy41NzM3Ni0xODguNDE2IDEzLjkzMTUyLTI3NC41MDg4IDMwLjI2OTQ0eiIgZmlsbD0iIzAwREZENSIgcC1pZD0iMTU0MCI+PC9wYXRoPjxwYXRoIGQ9Ik02MjYuODcyMzIgNjU5LjE1OTA0bS04Ny41MTEwNCAwYTg3LjUxMTA0IDg3LjUxMTA0IDAgMSAwIDE3NS4wMjIwOCAwIDg3LjUxMTA0IDg3LjUxMTA0IDAgMSAwLTE3NS4wMjIwOCAwWiIgZmlsbD0iI0ZGQzcwMCIgcC1pZD0iMTU0MSI+PC9wYXRoPjxwYXRoIGQ9Ik02MjYuOTU0MjQgNzUyLjUxNzEyaC0wLjAxMDI0YTkyLjc1MzkyIDkyLjc1MzkyIDAgMCAxLTY4LjM5Mjk2LTI5LjczNjk2IDkyLjc3NDQgOTIuNzc0NCAwIDAgMS0yNC45ODU2LTY2LjkzODg4YzEuODI3ODQtNTEuNjE0NzIgNDQuNDU2OTYtOTEuNDMyOTYgOTYuNjI0NjQtODkuOTg0IDUxLjQ0MDY0IDEuODI3ODQgOTEuODExODQgNDUuMTY4NjQgODkuOTk0MjQgOTYuNjI0NjRhOTIuOTk0NTYgOTIuOTk0NTYgMCAwIDEtOTMuMjMwMDggOTAuMDM1MnogbS0wLjE0ODQ4LTE3NS4wMTE4NGE4MS4zMjYwOCA4MS4zMjYwOCAwIDAgMC04MS41MzYgNzguNzQ1NiA4MS4xMjY0IDgxLjEyNjQgMCAwIDAgMjEuODUyMTYgNTguNTYyNTYgODEuMDcwMDggODEuMDcwMDggMCAwIDAgNTYuODQ3MzYgMjUuOTQzMDRsMi45Njk2IDAuMDU2MzJhODEuMzI2MDggODEuMzI2MDggMCAwIDAgODEuNTM2LTc4Ljc0NTZjMS42MDI1Ni00NS4wMDk5Mi0zMy43MDQ5Ni04Mi45MTg0LTc4LjY5OTUyLTg0LjUwNTZsLTIuOTY5Ni0wLjA1NjMyeiIgZmlsbD0iIzZDMDAwMCIgcC1pZD0iMTU0MiI+PC9wYXRoPjxwYXRoIGQ9Ik04MDUuODE2MzIgMjc0Ljc1OTY4bS0xOC42MTEyIDBhMTguNjExMiAxOC42MTEyIDAgMSAwIDM3LjIyMjQgMCAxOC42MTEyIDE4LjYxMTIgMCAxIDAtMzcuMjIyNCAwWiIgZmlsbD0iI0ZGQzcwMCIgcC1pZD0iMTU0MyI+PC9wYXRoPjxwYXRoIGQ9Ik04MDUuODExMiAyOTkuMjI4MTZsLTAuODU1MDQtMC4wMTAyNGEyNC40OTkyIDI0LjQ5OTIgMCAwIDEtMjMuNTg3ODQtMjUuMzI4NjQgMjQuMzcxMiAyNC4zNzEyIDAgMCAxIDI0LjQzNzc2LTIzLjU4Nzg0YzE0LjM2NjcyIDAuNDkxNTIgMjQuOTQ5NzYgMTEuODUyOCAyNC40Njg0OCAyNS4zMjg2NGEyNC4zOTY4IDI0LjM5NjggMCAwIDEtMjQuNDYzMzYgMjMuNTk4MDh6IG0wLjQzMDA4LTM3LjIxNzI4Yy03LjM0NzIgMC0xMi45MzgyNCA1LjM5NjQ4LTEzLjE3ODg4IDEyLjI4OGExMi43NzQ0IDEyLjc3NDQgMCAwIDAgMTIuMjk4MjQgMTMuMjA5NmwwLjQ0NTQ0IDUuODYyNHYtNS44NTIxNmExMi43MDc4NCAxMi43MDc4NCAwIDAgMCAxMi43NTM5Mi0xMi4zMDg0OCAxMi43NjkyOCAxMi43NjkyOCAwIDAgMC0xMi4yOTgyNC0xMy4xOTkzNmgtMC4wMjA0OHoiIGZpbGw9IiM2QzAwMDAiIHAtaWQ9IjE1NDQiPjwvcGF0aD48cGF0aCBkPSJNMTE2LjA2MDE2IDQxOC4yMTE4NG0tNDYuMTQxNDQgMGE0Ni4xNDE0NCA0Ni4xNDE0NCAwIDEgMCA5Mi4yODI4OCAwIDQ2LjE0MTQ0IDQ2LjE0MTQ0IDAgMSAwLTkyLjI4Mjg4IDBaIiBmaWxsPSIjRkZDNzAwIiBwLWlkPSIxNTQ1Ij48L3BhdGg+PHBhdGggZD0iTTExNi4xMDYyNCA0NzAuMjA1NDRoLTAuMDEwMjRsLTEuODg0MTYtMC4wMzU4NGMtMjguNjUxNTItMS4wMTg4OC01MS4xMzM0NC0yNS4xNTQ1Ni01MC4xMTQ1Ni01My44MDYwOGE1MS44MjQ2NCA1MS44MjQ2NCAwIDAgMSA1MS45MzIxNi01MC4xNTA0bDEuODczOTIgMC4wMzU4NGE1MS43MjczNiA1MS43MjczNiAwIDAgMSAzNi4yMDg2NCAxNi41Mzc2IDUxLjY0MDMyIDUxLjY0MDMyIDAgMCAxIDEzLjkxMTA0IDM3LjI2ODQ4IDUxLjgwNDE2IDUxLjgwNDE2IDAgMCAxLTUxLjkxNjggNTAuMTUwNHogbS0wLjA4MTkyLTkyLjI4OGE0MC4xNDU5MiA0MC4xNDU5MiAwIDAgMC00MC4yMzI5NiAzOC44NjA4Yy0wLjc4ODQ4IDIyLjIwNTQ0IDE2LjYyOTc2IDQwLjkwMzY4IDM4LjgyNDk2IDQxLjY5MjE2bDEuNDc0NTYgMC4wMzU4NGE0MC4xMTAwOCA0MC4xMTAwOCAwIDAgMCA0MC4yMTc2LTM4Ljg2MDggNDAuMDE3OTIgNDAuMDE3OTIgMCAwIDAtMTAuNzY3MzYtMjguODkyMTYgNDAuMDc0MjQgNDAuMDc0MjQgMCAwIDAtMjguMDU3Ni0xMi44bC0xLjQ1OTItMC4wMzU4NHoiIGZpbGw9IiM2QzAwMDAiIHAtaWQ9IjE1NDYiPjwvcGF0aD48cGF0aCBkPSJNMzgyLjQ3OTM2IDM2OC45NTIzMnMtMzUuMDEwNTYgNTEuMDA1NDQgNDAuMzkxNjggMTUwLjYwOTkybDQ1LjQ3MDcyLTg5LjUxODA4LTg1Ljg2MjQtNjEuMDkxODR6IiBmaWxsPSIjQkVENUU5IiBwLWlkPSIxNTQ3Ij48L3BhdGg+PHBhdGggZD0iTTQyNC4wNTM3NiA1MzIuNzQ2MjRsLTYuNzc4ODgtOC45NDk3NmMtNzcuNTY4LTEwMi40NjE0NC00Mi4xMjczNi0xNTYuNTY5Ni00MC41NzYtMTU4LjgxNzI4bDQuMDM0NTYtNS44ODggOTYuNjE0NCA2OC43MzYtNTMuMjk0MDggMTA0LjkxOTA0eiBtLTM4Ljc0ODE2LTE1My4xNTk2OGMtNS4zOTY0OCAxNS41MTg3Mi0xMi4xNDk3NiA1OC4xMTcxMiAzNi40OCAxMjYuNjEyNDhsMzcuNTQ0OTYtNzMuOTMyOC03NC4wMjQ5Ni01Mi42Nzk2OHoiIGZpbGw9IiM2QzAwMDAiIHAtaWQ9IjE1NDgiPjwvcGF0aD48cGF0aCBkPSJNNTM2LjYzMjMyIDI2My42MzM5MnM2MC4yNDcwNC0xNC4wNzQ4OCAxMjUuNjE5MiA5Mi4zODAxNmwtOTkuOTIxOTIgOS44MTUwNC0yNS42OTcyOC0xMDIuMTk1MnoiIGZpbGw9IiNCRUQ1RTkiIHAtaWQ9IjE1NDkiPjwvcGF0aD48cGF0aCBkPSJNNTU2Ljk5NDU2IDM3My40MDE2bC0yOC45MTc3Ni0xMTQuOTc5ODQgNi45NDc4NC0xLjYyMzA0YzAuNTc4NTYtMC4xMzMxMiAzLjcwNjg4LTAuNzk4NzIgOS4wMTEyLTAuNzk4NzIgMTkuNTUzMjggMCA3MC44MTQ3MiA5LjM4NDk2IDEyNC4yMTEyIDk2LjMyMjU2bDUuODcyNjQgOS41NjQxNi0xMTcuMTI1MTIgMTEuNTE0ODh6IG0tMTEuNTA5NzYtMTAzLjM0MjA4bDIyLjE4NDk2IDg4LjE4Njg4IDgyLjUzOTUyLTguMTE1MmMtNDUuOTQxNzYtNzAuMDI2MjQtODcuMjkwODgtNzkuNTkwNC0xMDQuNzI0NDgtODAuMDcxNjh6IiBmaWxsPSIjNkMwMDAwIiBwLWlkPSIxNTUwIj48L3BhdGg+PHBhdGggZD0iTTUxOS41MTYxNiAyMzguOTk2NDhDNDU5LjIxMjggMTUwLjcyNzY4IDM3NS45MDUyOCAxMDIuNjg2NzIgMzMzLjQ0IDEzMS42OTY2NHMtMjcuOTk2MTYgMTI0LjA4MzIgMzIuMzA3MiAyMTIuMzUyYzM5LjI3NTUyIDU3LjQ4NzM2IDg4LjMwNDY0IDk3Ljg4NDE2IDEyOS40NTQwOCAxMTEuMDczMjhsMC4wMDUxMi0wLjAyMDQ4YzAuMjQ1NzYgMC4xMjI4OCAwLjUxMiAwLjIzMDQgMC44Mjk0NCAwLjI3MTM2IDEuNDE4MjQgMC4xNzkyIDIxLjIwMTkyLTUxLjQ5Njk2IDc2LjczMzQ0LTUyLjE1NzQ0YTMuMjk3MjggMy4yOTcyOCAwIDAgMCAxLjgwNzM2LTAuNTkzOTIgMy4xNzQ0IDMuMTc0NCAwIDAgMCAxLjM1MTY4LTEuOTQ1NiAyLjExNDU2IDIuMTE0NTYgMCAwIDAtMC4wMTAyNC0wLjc2Mjg4YzIuNjY3NTItNDMuMTI1NzYtMTcuMTQxNzYtMTAzLjQ1NDcyLTU2LjQwMTkyLTE2MC45MTY0OHoiIGZpbGw9IiNCRUQ1RTkiIHAtaWQ9IjE1NTEiPjwvcGF0aD48cGF0aCBkPSJNNDk2LjA1NjMyIDQ2Mi4zODcyaC0wLjAzNTg0bC0xLjk3NjMyLTAuMTY4OTYtMS45NzYzMi0wLjg0NDhjLTQzLjM4Njg4LTEzLjc4MzA0LTkzLjE0ODE2LTU2LjMyNTEyLTEzMi4xMTEzNi0xMTMuMzU2OC0yOS43NTIzMi00My41NDU2LTQ5LjU4MjA4LTkwLjE3ODU2LTU1Ljg0Mzg0LTEzMS4zMDc1Mi02LjUyOC00Mi45MjYwOCAyLjQ3ODA4LTc1LjE3MTg0IDI1LjM1OTM2LTkwLjgwMzIgOS40MDU0NC02LjQyNTYgMjAuNjU0MDgtOS42ODE5MiAzMy40MTgyNC05LjY4MTkyIDQ4LjU5OTA0IDAgMTEzLjg2ODggNDcuNzM4ODggMTYyLjQyMTc2IDExOC44MDQ0OCAzOC43NDMwNCA1Ni43MDkxMiA2MC4yNjc1MiAxMTguMTY0NDggNTcuNjcxNjggMTY0LjU5MjY0bDAuMDgxOTIgMC41NDc4NC0wLjI3NjQ4IDEuOTg2NTZjLTAuNDQ1NDQgMi4zOTEwNC0yLjAwMTkyIDQuNzMwODgtNC4yMzkzNiA2LjI2MTc2LTEuNzgxNzYgMS4xNzc2LTMuNzAxNzYgMS43ODE3Ni01LjY0NzM2IDEuODE3Ni0yOC45NDg0OCAwLjM0MzA0LTUyLjE0MjA4IDE1Ljc0OTEyLTY4Ljk2MTI4IDQ1Ljc4MzA0LTEuODI3ODQgMy4yODcwNC0zLjU2MzUyIDYuMzY5MjgtNy44ODQ4IDYuMzY5Mjh6TTM2Mi44OTUzNiAxMzAuMjY4MTZjLTkuODg2NzIgMC0xOC40Njc4NCAyLjQzMi0yNS40ODczNiA3LjIyNDMyLTE4LjE5NjQ4IDEyLjQyMTEyLTI1LjA3Nzc2IDM5LjgwOC0xOS40MDQ4IDc3LjEwMjA4IDUuOTQ0MzIgMzkuMDg2MDggMjQuOTYgODMuNjYwOCA1My41NDQ5NiAxMjUuNDkxMiAzNS4zOTQ1NiA1MS44MTk1MiA4MS40ODk5MiA5Mi4yNzc3NiAxMjEuNDI1OTIgMTA2LjgzOTA0IDE4LjY1MjE2LTMyLjA1NjMyIDQ0LjI0MTkyLTQ5LjA3NTIgNzYuMTA4OC01MC42MjE0NCAxLjQzODcyLTQyLjYwODY0LTE5LjU2ODY0LTEwMC45NjY0LTU1LjM1MjMyLTE1My4zNDQtNDUuMzQyNzItNjYuMzU1Mi0xMDcuMzcxNTItMTEyLjY5MTItMTUwLjgzNTItMTEyLjY5MTJ6IiBmaWxsPSIjNkMwMDAwIiBwLWlkPSIxNTUyIj48L3BhdGg+PHBhdGggZD0iTTU0Mi42MTc2IDI4My44OTg4OEwzOTYuMTk1ODQgMzgyLjg0Mjg4YTMzNi4xOTk2OCAzMzYuMTk5NjggMCAwIDAgMTguMDc4NzIgMTcuNzc2NjRMNTUyLjUxOTY4IDMwNy4yYTMzNS42MTYgMzM1LjYxNiAwIDAgMC05LjkwMjA4LTIzLjMwMTEyeiIgZmlsbD0iI0ZGRkZGRiIgcC1pZD0iMTU1MyI+PC9wYXRoPjxwYXRoIGQ9Ik00MTMuNjI5NDQgNDA5LjUxODA4bC00LjA4MDY0LTMuNzAxNzZhMzQwLjEwNjI0IDM0MC4xMDYyNCAwIDAgMS0xOC40NTc2LTE4LjE1MDRsLTUuNjY3ODQtNi4wMTA4OCAxNjAuMDY2NTYtMTA4LjE2NTEyIDMuNDg2NzIgNy40MjkxMmEzMzQuMjg5OTIgMzM0LjI4OTkyIDAgMCAxIDEwLjEwMTc2IDIzLjc5Nzc2bDEuOTc2MzIgNS4yMDE5Mi0xNDcuNDI1MjggOTkuNTk5MzZ6IG0tNi41NzQwOC0yNS41NDM2OGEzMTYuMzQ5NDQgMzE2LjM0OTQ0IDAgMCAwIDcuODk1MDQgNy43MDU2bDEyOC45Nzc5Mi04Ny4xNDc1MmEzMTYuMjgyODggMzE2LjI4Mjg4IDAgMCAwLTQuMjY0OTYtMTAuMTU4MDhsLTEzMi42MDggODkuNnoiIGZpbGw9IiM2QzAwMDAiIHAtaWQ9IjE1NTQiPjwvcGF0aD48cGF0aCBkPSJNNTY1Ljg0NzA0IDMzMi4yNjc1MmwtMTMwLjA0OCA4OC44NDczNmE4NC4xMTEzNiA4NC4xMTEzNiAwIDAgMCAxOC4yMjcyIDEyLjMwODQ4bDExNy4wODkyOC03OS4wNDI1NmMtMC40NzYxNi02LjEzMzc2LTMuMTA3ODQtMTYuMzE3NDQtNS4yNjg0OC0yMi4xMTMyOHoiIGZpbGw9IiNGRkZGRkYiIHAtaWQ9IjE1NTUiPjwvcGF0aD48cGF0aCBkPSJNNDU0LjYwNDggNDQxLjUwNzg0bC0zLjY0NTQ0LTEuNzgxNzZhOTAuNTExMzYgOTAuNTExMzYgMCAwIDEtMTkuODI5NzYtMTMuMzczNDRsLTYuNjk2OTYtNS45NzUwNCAxNDQuODY1MjgtOTguOTY0NDggMy4xMzM0NCA4LjQwMTkyYzIuMzc1NjggNi40IDUuMTU1ODQgMTcuMTMxNTIgNS42OTM0NCAyNC4wMjMwNGwwLjMwNzIgNC4wNzA0TDQ1NC42MDQ4IDQ0MS41MDc4NHogbS02LjkzNzYtMTkuOTg4NDhjMS45MzAyNCAxLjM0NjU2IDMuOTMyMTYgMi42MDYwOCA1LjkxODcyIDMuNzI3MzZsMTEwLjAwMzItNzQuMjY1NmMtMC40MDk2LTIuMzQ0OTYtMC45OTMyOC00Ljk3MTUyLTEuNjU4ODgtNy41MzE1Mkw0NDcuNjY3MiA0MjEuNTE5MzZ6IiBmaWxsPSIjNkMwMDAwIiBwLWlkPSIxNTU2Ij48L3BhdGg+PHBhdGggZD0iTTQxMi4wMTY2NCAyNDYuODgxMjhtLTM5Ljg5NTA0IDBhMzkuODk1MDQgMzkuODk1MDQgMCAxIDAgNzkuNzkwMDggMCAzOS44OTUwNCAzOS44OTUwNCAwIDEgMC03OS43OTAwOCAwWiIgZmlsbD0iI0VDRjNGRSIgcC1pZD0iMTU1NyI+PC9wYXRoPjxwYXRoIGQ9Ik00MTIuMDYyNzIgMjkzLjc5NTg0Yy0wLjg3MDQgMC0xLjczNTY4LTAuMDIwNDgtMi42MTYzMi0wLjA4MTkyYTQ2LjYwMjI0IDQ2LjYwMjI0IDAgMCAxLTMyLjM2ODY0LTE1LjUxODcyIDQ2LjU3NjY0IDQ2LjU3NjY0IDAgMCAxLTExLjg5ODg4LTMzLjg4OTI4YzEuMzkyNjQtMjUuNzI4IDIzLjM1MjMyLTQ1Ljk1NzEyIDQ5LjQwOC00NC4yNjc1MmE0Ni42MDIyNCA0Ni42MDIyNCAwIDAgMSAzMi4zNjg2NCAxNS41MzQwOCA0Ni41NzY2NCA0Ni41NzY2NCAwIDAgMSAxMS44OTg4OCAzMy44ODkyOCA0Ni44NzM2IDQ2Ljg3MzYgMCAwIDEtNDYuNzkxNjggNDQuMzM0MDh6IG0tMC4wOTIxNi03OS43ODQ5NmEzMi44NDk5MiAzMi44NDk5MiAwIDAgMC0zMi43NzgyNCAzMS4wNjMwNCAzMi42MDQxNiAzMi42MDQxNiAwIDAgMCA4LjM0NTYgMjMuNzM2MzIgMzIuNjA0MTYgMzIuNjA0MTYgMCAwIDAgMjIuNjc2NDggMTAuODkwMjRsMS44NTM0NCAwLjA0NjA4YTMyLjg0OTkyIDMyLjg0OTkyIDAgMCAwIDMyLjc3ODI0LTMxLjA1MjggMzIuNjY1NiAzMi42NjU2IDAgMCAwLTguMzQ1Ni0yMy43NTE2OCAzMi43MjcwNCAzMi43MjcwNCAwIDAgMC0yMi42ODY3Mi0xMC44OTAyNGwtMS44NDMyLTAuMDQwOTZ6IiBmaWxsPSIjNkMwMDAwIiBwLWlkPSIxNTU4Ij48L3BhdGg+PHBhdGggZD0iTTM4MS4zNjMyIDIzMy4yMDA2NGM2LjIwMDMyLTEwLjYxODg4IDE5LjU0MzA0LTE0LjUyNTQ0IDMyLjUwNjg4LTEyLjM1NDU2IDI4LjI4Mjg4IDQuNzQxMTIgMjkuNTA2NTYgMzguNTg0MzIgMjguMTg1NiA0MS44OTY5NmEzMy44NDMyIDMzLjg0MzIgMCAwIDAtNjAuNjkyNDgtMjkuNTQyNHoiIGZpbGw9IiNCRUQ1RTkiIHAtaWQ9IjE1NTkiPjwvcGF0aD48L3N2Zz4=) no-repeat center center;
+       background-size: contain;
+  }
+  #back-top a{outline:none}
+  </style>
+  <script type="text/javascript">
+  $(function() {
+      // hide #back-top first
+      $("#back-top").hide();
+      // fade in #back-top
+      $(window).scroll(function() {
+          if ($(this).scrollTop() > 500) {
+              $('#back-top').fadeIn();
+          } else {
+              $('#back-top').fadeOut();
+          }
+      });
+      // scroll body to 0px on click
+      $('#back-top a').click(function() {
+          $('body,html').animate({
+              scrollTop: 0
+          }, 800);
+          return false;
+      });
+  });
+  </script>
+  <p id="back-top" style="display:none"><a href="#top"><span></span></a></p>
+
+<script src="herobrine%20-%20%E5%8D%9A%E5%AE%A2%E5%9B%AD_files/jquery-1.js"></script>
+
+ <script src="herobrine%20-%20%E5%8D%9A%E5%AE%A2%E5%9B%AD_files/jquery.js"></script>
+
+
+    <script language="javascript" type="text/javascript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <body οncοntextmenu='return false' οndragstart='return false' onselectstart ='return false' οnselect='document.selection.empty()' οncοpy='document.selection.empty()' onbeforecopy='return false' οnmοuseup='document.selection.empty()'>
+    </div>
+</body>
+</html>
+</div><canvas id="c_n8" style="position: fixed; top: 0px; left: 0px; z-index: -2; opacity: 1;" width="1600" height="728"></canvas><!----></body></html>
